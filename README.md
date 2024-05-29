@@ -7,5 +7,3 @@ Discentes:
 - Guilherme Prado
 - Nathalia Melo
 - Júlia Alves 
-
-Link do vídeo da apresentação: https://youtu.be/vx0aF89rb7o
