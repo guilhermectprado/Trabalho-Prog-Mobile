@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/foto_perfil_N"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/avatar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_toStartOf="@id/imagem_post_N"
+        android:layout_toEndOf="@id/foto_perfil_N"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_usernameN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/username"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_comentarioN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="5"
+            android:hint="@string/descri_o_da_notifica_o"
+            android:textColorHint="@color/hint"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imagem_post_N"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_placeholder"
+        android:contentDescription="@string/post_n" />
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context=".Activity.LoginActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:src="@drawable/logo"
+        android:contentDescription="@string/todo" />
+
+    <EditText
+        android:id="@+id/edt_emailL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:autofillHints=""
+        android:background="@drawable/edit_text_background"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="10dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:textColorHint="#546E7A"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/edt_senhaL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:autofillHints=""
+        android:background="@drawable/edit_text_background"
+        android:drawableStart="@drawable/ic_password"
+        android:drawablePadding="10dp"
+        android:hint="@string/senha"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textColorHint="#546E7A" />
+
+    <Button
+        android:id="@+id/btn_logarL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_background"
+        android:text="@string/entrar"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/txt_registrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/cadastre_se" />
+
+</LinearLayout>
